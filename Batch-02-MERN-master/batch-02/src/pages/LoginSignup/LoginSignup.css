@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff6800;
+}
+
+.login-signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 70vh;
+  margin: 5vh auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Login Section */
+.login-section {
+  flex: 1;
+  background-color: #f5e7c6;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+}
+
+.log-text {
+  color: #ff6800;
+  font-weight: bold;
+}
+
+.in-text {
+  color: #222222;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #faf3e1;
+  font-size: 1rem;
+}
+
+.input-field::placeholder {
+  color: #999999;
+}
+
+.forgot-password-link {
+  font-size: 0.9rem;
+  color: #222222;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+  color: #ff6800;
+}
+
+.login-button {
+  padding: 0.8rem;
+  width: 100%;
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Signup Section */
+.signup-section {
+  flex: 1;
+  background-color: #faf3e1;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.signup-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+
+.signup-section p {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+
+.signup-button {
+  padding: 0.8rem 2rem;
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  opacity: 0.9;
+}

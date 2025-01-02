@@ -1,0 +1,58 @@
+.info-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .info-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .explore-btn {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .explore-btn:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 1.5rem;
+    color: #ff7a00;
+  }
+  
+  .stat p {
+    margin-top: 0.5rem;
+    color: #777;
+  }

@@ -1,0 +1,96 @@
+/* AboutUs.css */
+
+.about-us {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-header {
+    background-color: #FF6800;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .about-header p {
+    font-size: 1em;
+    color: #fff;
+    margin: 5px 0 0;
+  }
+
+  .breadcrumb {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  
+  .breadcrumb:hover {
+    text-decoration: underline;
+    color: #ffe;
+  }
+  
+  
+  .about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .intro, .mission {
+    margin-bottom: 20px;
+  }
+  
+  .achievements, .what-we-offer, .future-plans {
+    margin-bottom: 30px;
+  }
+  
+  .achievements h2, .what-we-offer h2, .future-plans h2 {
+    font-size: 1.5em;
+    color: #FF6800;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #FF6800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #FF6800;
+  }
+  
+  .about-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }

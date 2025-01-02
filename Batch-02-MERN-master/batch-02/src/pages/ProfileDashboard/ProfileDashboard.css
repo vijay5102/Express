@@ -1,0 +1,188 @@
+/* Overall Profile Dashboard Layout */
+.profile-dashboard {
+    display: flex;
+    flex-direction: column; /* Stack Header on top of Dashboard */
+    height: 100vh;
+    background-color: #faf3e1; /* Main background */
+    color: #222222; /* Text color */
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Header Section */
+  /* Header Section */
+header {
+    width: 100%;
+    height: 100px; /* Set a fixed height for the header */
+    padding: 20px 0; /* Adjust padding for spacing within the header */
+    box-sizing: border-box; /* Ensure padding and borders don't affect the width/height */
+    background-color: #ff6800; /* You can set your header's background color */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center content */
+  }
+  
+  /* Logo or header content, adjust accordingly */
+  header .logo {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  
+  /* Dashboard Content Section */
+  .dashboard-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 2rem;
+    justify-content: space-between;
+    margin-top: 20px; /* Space below the header */
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 250px;
+    background-color: #f5e7c6; /* Sidebar background */
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #e0d6bd; /* Subtle border */
+  }
+  
+  /* Profile Picture Section */
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #222222;
+    margin-bottom: 1rem;
+    border: 2px solid #ff6800;
+  }
+  
+  /* Username Styling */
+  .username {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #222222;
+  }
+  
+  /* Sidebar Menu */
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar-menu li {
+    margin: 0.75rem 0;
+    font-size: 1rem;
+  }
+  
+  .sidebar-menu a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #222222;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Active Link Styling */
+  .sidebar-menu .active {
+    background-color: #ff6800;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #ff6800;
+    color: #fff;
+  }
+  
+  /* Main Content Styling */
+  .profile-content {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #faf3e1;
+    overflow-y: auto;
+    max-width: 800px;
+    margin-left: 2rem; /* Creates space between the sidebar and main content */
+  }
+  
+  .profile-content h1 {
+    font-size: 2rem;
+    color: #222222;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form Section Styling */
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  
+  .form-section label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #222222;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e0d6bd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .form-section input::placeholder,
+  textarea::placeholder {
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  /* Note Styling */
+  .note {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: -0.5rem;
+  }
+
+  /* Save Button Styling */
+.save-button {
+    background-color: #ff6800; /* Button color */
+    color: #fff; /* Text color */
+    padding: 0.75rem 1.5rem; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    font-family: "Poppins", sans-serif; /* Consistent font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* Space above the button */
+  }
+  
+  .save-button:hover {
+    background-color: #e55d00; /* Slightly darker orange on hover */
+  }
+  

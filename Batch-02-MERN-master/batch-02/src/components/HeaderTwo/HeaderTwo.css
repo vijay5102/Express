@@ -1,0 +1,80 @@
+/* Header container */
+.header {
+    height: 45px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FF6800;
+      padding: 1rem 2rem;
+      color: #222222;
+    }
+  
+    /* Logo styling */
+  .logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 100px; /* Add left margin of 100px */
+      cursor: pointer;
+    }
+  
+    .logo img {
+      height: 160px;
+      margin-right: 10px;
+      padding-right: 0;
+    }
+    
+    .logo .highlight {
+      color: #fff;
+    }
+    .logo .highlight2 {
+      color: #fff;
+    }
+    
+    
+    /* Navbar container */
+    .navbar {
+      display: flex;
+      justify-content: flex-end; /* Align the navbar to the right */
+      flex-grow: 1; /* Make the navbar grow to the left */
+    }
+    
+    /* Navbar links */
+    .navbar a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #222222;
+      transition: font-weight 0.2s;
+    }
+    
+    .navbar a:hover {
+      font-weight: bold;
+    }
+    
+    /* Auth buttons container */
+    .auth-buttons {
+      display: flex;
+      align-items: center;
+    }
+    
+    /* Auth buttons */
+    .auth-buttons button {
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    
+    .auth-buttons .login {
+      background-color: #222222;
+      color: #fff;
+      border-radius: 30px;
+    }
+    
+    .auth-buttons button:hover {
+      opacity: 0.8;
+    }
+    

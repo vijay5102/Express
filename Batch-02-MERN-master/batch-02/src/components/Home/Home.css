@@ -1,0 +1,61 @@
+.hero {
+    display: flex; /* Enable flexbox for layout */
+    align-items: center; /* Center content vertically */
+    padding: 40px;
+    background-color: #F5E7C6; /* Light beige background */
+    height: 100vh; /* Full viewport height */
+    gap: 40px; /* Add some space between the text and image */
+  }
+  
+  .hero-image {
+    flex: 1; /* Image occupies one portion of the layout */
+    display: flex;
+    justify-content: center; /* Center the image within its container */
+  }
+  
+  .hero-image img {
+    height: 600px; /* Adjust the height to match the reference */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Slight rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better look */
+  }
+  
+  .hero-text {
+    flex: 1; /* Text occupies another portion */
+    text-align: left;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem; /* Slightly increase font size for emphasis */
+    color: #222222;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    color: #555555;
+  }
+  
+  .highlight, .highlight2 {
+    color: #FF6800;
+    font-weight: bold;
+  }
+  
+  .signup-btn {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem; /* Slightly larger button text */
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signup-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+    
